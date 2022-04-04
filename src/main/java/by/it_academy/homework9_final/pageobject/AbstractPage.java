@@ -1,6 +1,6 @@
 package by.it_academy.homework9_final.pageobject;
 
-import by.it_academy.homework9_final.framework.SelenideWebDriverDiscovery;
+import by.it_academy.homework9_final.framework.WebDriverDiscovery;
 import by.it_academy.homework9_final.utils.PropertyUtils;
 import com.codeborne.selenide.Configuration;
 import io.qameta.allure.Step;
@@ -20,7 +20,7 @@ public abstract class AbstractPage {
     protected static final int MINIMAL_SIZE_OF_COLLECTION = 0;
 
     public AbstractPage() {
-        Configuration.browser = SelenideWebDriverDiscovery.class.getName();
+        Configuration.browser = WebDriverDiscovery.class.getName();
         Configuration.pageLoadTimeout = 200000;
         Configuration.startMaximized = true;
     }

@@ -8,7 +8,7 @@ import javax.annotation.Nonnull;
 
 import static by.it_academy.homework9_final.utils.LoggerUtils.LOG_SELENIDE_WEBDRIVER_DISCOVERY;
 
-public class SelenideWebDriverDiscovery implements WebDriverProvider {
+public class WebDriverDiscovery implements WebDriverProvider {
     @Nonnull
     @Override
     public RemoteWebDriver createDriver(@Nonnull DesiredCapabilities desiredCapabilities) {
