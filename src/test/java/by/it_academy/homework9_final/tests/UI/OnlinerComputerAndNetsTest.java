@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 import static by.it_academy.homework9_final.utils.LoggerTestUtils.LOG_ONLINER_COMPUTER_AND_NETS_TEST;
-import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class OnlinerComputerAndNetsTest extends UIBaseTest {
     @Test

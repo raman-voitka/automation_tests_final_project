@@ -12,7 +12,7 @@ import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 public class OnlinerAccessoriesTest extends UIBaseTest {
     @Test
     @Description("Onliner. Test That Products And Their Descriptions Of Category 'Accessories' Are Not Empty")
-    public void testProductsAndDescriptionsOfAccessoriesAreNotEmpty() {
+    public void test_ProductsAndDescriptions_Of_Accessories_Are_Not_Empty() {
         LOG_ONLINER_ACCESSORIES_TEST.info("Test Started");
         List<String> productsAndDescriptionsOfAccessories = navigateToCategoryComputersAndNets()
                 .clickOnLinkByXpath(onlinerCatalogPage.getCatalogClassifierCategoryXpathPattern(), "Комплектующие")
