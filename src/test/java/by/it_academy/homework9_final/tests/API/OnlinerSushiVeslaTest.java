@@ -4,6 +4,8 @@ import by.it_academy.homework9_final.model.OnlinerSushiVeslaProduct;
 import by.it_academy.homework9_final.service.OnlinerSushiVeslaService;
 import by.it_academy.homework9_final.utils.PropertyUtils;
 import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Story;
 import org.testng.annotations.Test;
 
 import java.util.List;
@@ -11,11 +13,13 @@ import java.util.List;
 import static by.it_academy.homework9_final.utils.LoggerTestUtils.LOG_ONLINER_SUSHI_VESLA_TEST;
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
+@Epic("Epic 1. Onliner.by")
 public class OnlinerSushiVeslaTest {
 
     private OnlinerSushiVeslaService onlinerSushiVeslaService = new OnlinerSushiVeslaService();
     private List<OnlinerSushiVeslaProduct> onlinerSushiVeslaProducts;
 
+    @Story("User story 1. API")
     @Test
     @Description("Onliner. Test That Each Of SushiVesla Products Has Name")
     public void test_Each_Of_SushiVesla_Products_Has_Name() {
@@ -28,6 +32,7 @@ public class OnlinerSushiVeslaTest {
         LOG_ONLINER_SUSHI_VESLA_TEST.info("Test Passed");
     }
 
+    @Story("User story 1. API")
     @Test
     @Description("Onliner. Test That Each Of SushiVesla Products Has Preset Filter")
     public void test_Each_Of_SushiVesla_Products_Has_Preset_Filter() {
