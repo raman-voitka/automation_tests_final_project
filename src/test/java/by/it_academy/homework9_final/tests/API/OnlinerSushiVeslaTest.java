@@ -6,6 +6,7 @@ import by.it_academy.homework9_final.utils.PropertyUtils;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Story;
+import io.qameta.allure.TmsLink;
 import org.testng.annotations.Test;
 
 import java.util.List;
@@ -20,6 +21,7 @@ public class OnlinerSushiVeslaTest {
     private List<OnlinerSushiVeslaProduct> onlinerSushiVeslaProducts;
 
     @Story("User story 1. API")
+    @TmsLink("1")
     @Test
     @Description("Onliner. Test That Each Of SushiVesla Products Has Name")
     public void test_Each_Of_SushiVesla_Products_Has_Name() {
@@ -33,6 +35,7 @@ public class OnlinerSushiVeslaTest {
     }
 
     @Story("User story 1. API")
+    @TmsLink("2")
     @Test
     @Description("Onliner. Test That Each Of SushiVesla Products Has Preset Filter")
     public void test_Each_Of_SushiVesla_Products_Has_Preset_Filter() {

@@ -5,7 +5,7 @@
             <PatternLayout
                     pattern="%d [%t] %-5level %logger{36}. %M. Line number: %L - %msg%n%throwable"/>
         </Console>
-        <RollingFile name="RollingFile" fileName="C:/OnlinerTestsLogs.log" filePattern="C:/LOG.log">
+        <RollingFile name="RollingFile" fileName="C:/Users/r.voitka/OnlinerTestsLogs.log" filePattern="C:/LOG.log">
             <PatternLayout
                     pattern="%d  [%t]  %5p  %logger. %M. Line number: %L - %m%n"/>
             <SizeBasedTriggeringPolicy size="5 MB"/>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="run all tests" verbose="2">
+    <test name="test mail service">
+        <classes>
+            <class name="by.it_academy.homework9_final.tests.UI.OnlinerAccessoriesTest"></class>
+            <class name="by.it_academy.homework9_final.tests.UI.OnlinerCatalogTest"></class>
+            <class name="by.it_academy.homework9_final.tests.UI.OnlinerComputerAndNetsTest"></class>
+            <class name="by.it_academy.homework9_final.tests.API.OnlinerSushiVeslaTest"></class>
+            <class name="by.it_academy.homework9_final.tests.demo.StatusOfTest"></class>
+        </classes>
+    </test>
+</suite>
